@@ -1,37 +1,37 @@
 # ClimateSafe
 
 ## 🌍 About the Project
-ClimateSafe is a web application developed to provide monitoring of urban mobility in the city of Manaus. The objective of the project is to offer a detailed view of safer wheels for the user, taking into account issues such as flooding, landslides, accidents, among others.
+ClimateSafe is a comprehensive application designed to monitor urban mobility in the city of Manaus. It offers real-time data and insights into safer routes for users, addressing issues like flooding, landslides, accidents, and more. The app integrates advanced backend functionalities with a user-friendly Flutter frontend to deliver a robust and efficient solution.
 
 ---
 
 ## 🚀 Features
 
-- **Secure login:**
-  - Credential verification and personalized messages for user feedback.
-- **User registration:**
-  - Creation of new users with data such as name, login, email and password.
+- **Secure Login:**
+  - Credential verification and personalized feedback for users.
+- **User Registration:**
+  - Register new users with data including name, login, email, and password.
 - **Chats:**
-  - Chat for users in a certain location to stay updated.
+  - Real-time communication for users in specific locations to share updates.
 - **Monitoring:**
-  - Real-time map visualization showing the situation of each road.
+  - Live map visualizations displaying the condition of various roads.
 
 ---
 
 ## 🛠️ Technologies Used
 
 ### Backend:
-- **Flutter/Dart**: Main framework/programming language of the project.
-- **Flask**: Framework used to create the API.
-- **MySQL**: Relational database to store user and alert information.
+- **Python:** Main programming language for server-side development.
+- **Flask:** Framework used to create the API.
+- **MySQL:** Relational database for storing user and alert information.
 
-### Other tools:
-- **Flask-CORS**: allows secure communication between frontend and backend.
-- **MySQL Connector**: Library for connecting to the database.
+### Other Tools:
+- **Flask-CORS:** Enables secure communication between frontend and backend.
+- **MySQL Connector:** Library for connecting to the database.
 
-### Front-end:
-- **Flutter**: used exclusively for frontend development.
-  
+### Frontend:
+- **Flutter/Dart:** Primary framework and programming language for the user interface.
+
 ---
 
 ## 🔗 Social Media
@@ -56,19 +56,22 @@ Follow the progress of ClimateSafe and get in touch for suggestions or collabora
 │   ├── db.py          # Functions for database connection
 │   ├── routes.py      # API routes
 ├── climatesafe_app
-│   ├── android/
-│   ├── ios/
-│   ├── assets/
-│   │   └── icon/     # App-specific icons
-│   ├── lib/
+│   ├── android/       # Android-specific files
+│   ├── ios/           # iOS-specific files
+│   ├── assets/        # Images, icons, and fonts
+│   │   ├── images/    # App-specific images
+│   │   ├── fonts/     # Custom fonts
+│   │   └── icons/     # App-specific icons
+│   ├── lib/           # Main Flutter codebase
+│   │   ├── components/  # Reusable widgets
+│   │   ├── models/      # Data models
 │   │   ├── pages/       # Screens of the app
-│   │   ├── routes/      # Routes of app navigation
+│   │   ├── routes/      # Navigation structure
 │   │   ├── services/    # API communication logic
-│   │   ├── theme/       # Definition of colors and themes of app(dark & light)
-│   │   ├── main.dart    # Entry point of the Flutter app
-│   ├── test/
-│   ├── build/
+│   │   ├── theme/       # Dark and light themes
+│   │   └── main.dart    # Entry point of the Flutter app
 │   ├── pubspec.yaml   # Flutter project configuration
+│   ├── test/          # Unit and widget tests
 ```
 
 ---
